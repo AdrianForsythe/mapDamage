@@ -116,9 +116,9 @@ plot.mutations <- function(mut, end, axis.at, start.i, end.i, modifier) {
     do.plot(mut, end, modifier, mismatch, "grey", 1)
   }
 
-  do.plot(mut, end, modifier, CLIPPING, "orange", 1)
-  do.plot(mut, end, modifier, DELETIONS, "green", 1)
-  do.plot(mut, end, modifier, INSERTIONS, "purple", 1)
+  #do.plot(mut, end, modifier, CLIPPING, "orange", 1)
+  #do.plot(mut, end, modifier, DELETIONS, "green", 1)
+  #do.plot(mut, end, modifier, INSERTIONS, "purple", 1)
   do.plot(mut, end, modifier, "G>A", "blue", 2)
   do.plot(mut, end, modifier, "C>T", "red", 2)
 }
